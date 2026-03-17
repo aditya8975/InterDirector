@@ -995,7 +995,7 @@ body::after{
       </div>
       <div class="field">
         <label class="field-lbl">Backend URL</label>
-        <input type="text" id="settings-backend" value="http://localhost:8000">
+        <input type="text" id="settings-backend" value="">
       </div>
       <div class="field">
         <label class="field-lbl">Denoise Strength</label>
@@ -1025,7 +1025,7 @@ body::after{
 /* ═══════════════════════════════════════════════════
    PixelForge Pro — Main Application JS
 ═══════════════════════════════════════════════════ */
-const API = () => localStorage.getItem('pf_backend') || 'http://localhost:8000';
+const API = () => localStorage.getItem('pf_backend');
 let JOB_ID = null, JOB_INFO = null, CURRENT_LOOK = 'none';
 let pollTimer = null, activeEffects = new Set(), layerOrder = [];
 let videoEl, probeData = {}, GROQ_KEY = localStorage.getItem('pf_groq_key') || '';
