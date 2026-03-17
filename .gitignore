@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+frames/
+outputs/
+uploads/
+thumbnails/
+node_modules/
