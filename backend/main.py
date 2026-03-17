@@ -29,6 +29,10 @@ except ImportError:
 
 AI_CONFIG: Dict = {}
 
+for folder in ["frames","outputs","uploads","thumbnails"]:
+    os.makedirs(folder, exist_ok=True)
+
+
 app = FastAPI(
     title="PixelForge Pro",
     description="Professional AI Video Enhancement Suite",
