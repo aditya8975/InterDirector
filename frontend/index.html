@@ -1025,7 +1025,8 @@ body::after{
 /* ═══════════════════════════════════════════════════
    PixelForge Pro — Main Application JS
 ═══════════════════════════════════════════════════ */
-const API = () => localStorage.getItem('pf_backend');
+// const API = () => localStorage.getItem('pf_backend');
+const API = () => "https://interdirector.onrender.com";
 let JOB_ID = null, JOB_INFO = null, CURRENT_LOOK = 'none';
 let pollTimer = null, activeEffects = new Set(), layerOrder = [];
 let videoEl, probeData = {}, GROQ_KEY = localStorage.getItem('pf_groq_key') || '';
