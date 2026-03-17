@@ -1,6 +1,6 @@
 # InterDirector — AI Filmmaker's Suite
 
-> Free, open-source AI assistant for indie filmmakers. Dailies processing, script breakdown, color grading. Runs locally. Zero cost.
+> Free, open-source AI assistant for filmmakers. Dailies processing, script breakdown, color grading. Runs locally. Zero cost.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com)
